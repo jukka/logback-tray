@@ -1,0 +1,11 @@
+<configuration>
+
+  <appender name="TRAY" class="name.zitting.logbacktray.SystemTrayAppender">
+    <tooltip>Logback on the System Tray</tooltip>
+  </appender>
+
+  <root level="warn">
+    <appender-ref ref="TRAY" />
+  </root>
+
+</configuration>
